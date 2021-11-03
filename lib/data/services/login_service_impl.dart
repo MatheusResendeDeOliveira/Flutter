@@ -5,7 +5,7 @@ class LoginServiceImpl extends LoginService {
   @override
   Future<Login> obtenhaLogin(
       {required String usuario, required String senha}) async {
-    if (usuario == 'gustavo' && senha == '123456') {
+    if (usuario == 'matheus' && senha == '123456') {
       return Login(usuario: usuario, senha: senha, token: 'token');
     }
 

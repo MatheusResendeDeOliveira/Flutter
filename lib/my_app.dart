@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, must_call_super
+// ignore_for_file: file_names, must_call_super, unnecessary_new
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/presentation/bloc/application/application_bloc.dart';
