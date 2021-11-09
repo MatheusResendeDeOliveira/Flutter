@@ -46,8 +46,12 @@ class _LoginScreenState extends State<LoginScreen> {
                 )),
                 child: Column(
                   children: [
+                    Image(
+                      height: MediaQuery.of(context).size.height * 0.25,
+                      image: const AssetImage('assets/logosmart.png'),
+                    ),
                     const Padding(
-                      padding: EdgeInsets.only(top: 340.0, left: 30, right: 30),
+                      padding: EdgeInsets.only(top: 200.0, left: 30, right: 30),
                       child: Text(
                         "Ola!",
                         style: TextStyle(
