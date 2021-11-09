@@ -44,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   focal: Alignment(-0.1, -1),
                   focalRadius: 1.5,
                 )),
-                child: Column(
+                child: ListView(
                   children: [
                     Image(
                       height: MediaQuery.of(context).size.height * 0.25,
