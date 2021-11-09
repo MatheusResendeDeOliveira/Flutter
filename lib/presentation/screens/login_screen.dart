@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/data/widgets/widgets_helper.dart';
 import 'package:flutter_application_1/presentation/bloc/application/application_bloc.dart';
 import 'package:flutter_application_1/presentation/bloc/application/application_event.dart';
 import 'package:flutter_application_1/presentation/bloc/bloc.dart';
 import 'package:flutter_application_1/presentation/bloc/login/login_bloc.dart';
 import 'package:flutter_application_1/presentation/bloc/login/login_state.dart';
+import 'package:flutter_application_1/presentation/widgets/widgets_helper.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../injector.dart';
