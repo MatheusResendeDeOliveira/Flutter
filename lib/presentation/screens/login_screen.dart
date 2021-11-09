@@ -135,13 +135,13 @@ class _LoginScreenState extends State<LoginScreen> {
                               RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(50),
                               ),
-                            )),
+                            ),),
                           ),
                         ),
                       ),
                     ],
                   ),
-                ));
+                ),);
           },
         ),
       ),
