@@ -4,8 +4,8 @@ import 'package:flutter_application_1/domain/erros/failure.dart';
 import 'package:flutter_application_1/domain/usecases/login_usecase.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'login_event.dart';
-import 'login_state.dart';
+import '../bloc.dart';
+
 
 class LoginBloc extends Bloc<LoginEvent, LoginState> {
   final LoginUsecase loginUsecase;

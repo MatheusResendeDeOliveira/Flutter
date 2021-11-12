@@ -1,7 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'application_state.dart';
-import 'application_event.dart';
+import '../bloc.dart';
 
 class ApplicationBloc extends Bloc<ApplicationEvent, ApplicationState> {
   ApplicationBloc(ApplicationState initialState) : super(initialState);
